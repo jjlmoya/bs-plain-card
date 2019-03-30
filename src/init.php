@@ -63,7 +63,7 @@ function render_bs_plain_card_entries($authors)
 		$image = esc_url(get_the_post_thumbnail_url(get_the_ID()));
 		$link = esc_url(get_the_permalink());
 		$html .= '
-			<div class="ml-card-sample l-flex l-flex--direction-column l-column--1-3 ml-card-sample--small a-pad">
+			<div class="ml-card-sample l-flex l-flex--direction-column l-column--1-3 l-column--mobile--1-2 ml-card-sample--small a-pad">
 				<a href="' . $link . '" class="ml-card-sample__title a-bg--dark l-column--1-1">
 					<h3 class="a-text  a-text--secondary a-text--center a-pad--y">
 						' . $title . '
